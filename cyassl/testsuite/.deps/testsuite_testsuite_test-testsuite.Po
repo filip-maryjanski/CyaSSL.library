@@ -1,0 +1,120 @@
+testsuite/testsuite_testsuite_test-testsuite.o : \
+ testsuite/testsuite.c config.h \
+ cyassl/ctaocrypt/settings.h cyassl/ctaocrypt/visibility.h \
+ cyassl/test.h /gg/includestd/stdio.h /gg/includestd/sys/types.h \
+ /gg/includestd/machine/types.h /gg/includestd/sys/cdefs.h \
+ /gg/includestd/machine/cdefs.h /gg/includestd/machine/ansi.h \
+ /gg/lib/gcc-lib/ppc-morphos/2.95.3/include/stdarg.h \
+ /gg/lib/gcc-lib/ppc-morphos/2.95.3/include/va-ppc.h \
+ /gg/includestd/machine/endian.h /gg/includestd/stdlib.h \
+ /gg/includestd/assert.h /gg/includestd/ctype.h cyassl/ssl.h \
+ cyassl/version.h /gg/os-include/proto/exec.h \
+ /gg/os-include/clib/exec_protos.h /gg/os-include/exec/types.h \
+ /gg/os-include/exec/memory.h /gg/os-include/exec/nodes.h \
+ /gg/os-include/exec/tasks.h /gg/os-include/exec/lists.h \
+ /gg/os-include/exec/ports.h /gg/os-include/exec/semaphores.h \
+ /gg/os-include/exec/devices.h /gg/os-include/exec/libraries.h \
+ /gg/os-include/exec/machine.h /gg/os-include/utility/tagitem.h \
+ /gg/os-include/emul/emulinterface.h /gg/os-include/exec/io.h \
+ /gg/os-include/utility/hooks.h /gg/os-include/ppcinline/exec.h \
+ /gg/os-include/ppcinline/macros.h /gg/os-include/emul/emulregs.h \
+ /gg/includestd/sys/uio.h cyassl/ctaocrypt/types.h \
+ cyassl/ctaocrypt/wc_port.h cyassl/ctaocrypt/memory.h \
+ /gg/includestd/string.h cyassl/ctaocrypt/error-crypt.h \
+ /gg/includestd/unistd.h /gg/includestd/sys/unistd.h \
+ /gg/os-include/proto/socket.h /gg/os-include/clib/socket_protos.h \
+ /gg/includestd/sys/time.h /gg/includestd/time.h \
+ /gg/includestd/sys/socket.h /gg/includestd/netinet/in.h \
+ /gg/os-include/ppcinline/socket.h /gg/os-include/proto/usergroup.h \
+ /gg/os-include/clib/usergroup_protos.h \
+ /gg/os-include/libraries/usergroup.h /gg/includestd/pwd.h \
+ /gg/includestd/grp.h /gg/includestd/utmp.h \
+ /gg/os-include/ppcinline/usergroup.h /gg/includestd/netdb.h \
+ /gg/includestd/netinet/tcp.h /gg/includestd/arpa/inet.h \
+ /gg/includestd/sys/ioctl.h /gg/includestd/sys/ttycom.h \
+ /gg/includestd/sys/ioccom.h /gg/includestd/sys/filio.h \
+ /gg/includestd/sys/sockio.h /gg/includestd/fcntl.h \
+ /gg/includestd/sys/fcntl.h /gg/includestd/signal.h \
+ /gg/includestd/sys/signal.h ctaocrypt/test/test.h \
+ cyassl/openssl/ssl.h cyassl/ctaocrypt/sha256.h \
+ examples/echoclient/echoclient.h examples/echoserver/echoserver.h \
+ examples/server/server.h examples/client/client.h
+testsuite/testsuite.c :
+config.h :
+cyassl/ctaocrypt/settings.h :
+cyassl/ctaocrypt/visibility.h :
+cyassl/test.h :
+/gg/includestd/stdio.h :
+/gg/includestd/sys/types.h :
+/gg/includestd/machine/types.h :
+/gg/includestd/sys/cdefs.h :
+/gg/includestd/machine/cdefs.h :
+/gg/includestd/machine/ansi.h :
+/gg/lib/gcc-lib/ppc-morphos/2.95.3/include/stdarg.h :
+/gg/lib/gcc-lib/ppc-morphos/2.95.3/include/va-ppc.h :
+/gg/includestd/machine/endian.h :
+/gg/includestd/stdlib.h :
+/gg/includestd/assert.h :
+/gg/includestd/ctype.h :
+cyassl/ssl.h :
+cyassl/version.h :
+/gg/os-include/proto/exec.h :
+/gg/os-include/clib/exec_protos.h :
+/gg/os-include/exec/types.h :
+/gg/os-include/exec/memory.h :
+/gg/os-include/exec/nodes.h :
+/gg/os-include/exec/tasks.h :
+/gg/os-include/exec/lists.h :
+/gg/os-include/exec/ports.h :
+/gg/os-include/exec/semaphores.h :
+/gg/os-include/exec/devices.h :
+/gg/os-include/exec/libraries.h :
+/gg/os-include/exec/machine.h :
+/gg/os-include/utility/tagitem.h :
+/gg/os-include/emul/emulinterface.h :
+/gg/os-include/exec/io.h :
+/gg/os-include/utility/hooks.h :
+/gg/os-include/ppcinline/exec.h :
+/gg/os-include/ppcinline/macros.h :
+/gg/os-include/emul/emulregs.h :
+/gg/includestd/sys/uio.h :
+cyassl/ctaocrypt/types.h :
+cyassl/ctaocrypt/wc_port.h :
+cyassl/ctaocrypt/memory.h :
+/gg/includestd/string.h :
+cyassl/ctaocrypt/error-crypt.h :
+/gg/includestd/unistd.h :
+/gg/includestd/sys/unistd.h :
+/gg/os-include/proto/socket.h :
+/gg/os-include/clib/socket_protos.h :
+/gg/includestd/sys/time.h :
+/gg/includestd/time.h :
+/gg/includestd/sys/socket.h :
+/gg/includestd/netinet/in.h :
+/gg/os-include/ppcinline/socket.h :
+/gg/os-include/proto/usergroup.h :
+/gg/os-include/clib/usergroup_protos.h :
+/gg/os-include/libraries/usergroup.h :
+/gg/includestd/pwd.h :
+/gg/includestd/grp.h :
+/gg/includestd/utmp.h :
+/gg/os-include/ppcinline/usergroup.h :
+/gg/includestd/netdb.h :
+/gg/includestd/netinet/tcp.h :
+/gg/includestd/arpa/inet.h :
+/gg/includestd/sys/ioctl.h :
+/gg/includestd/sys/ttycom.h :
+/gg/includestd/sys/ioccom.h :
+/gg/includestd/sys/filio.h :
+/gg/includestd/sys/sockio.h :
+/gg/includestd/fcntl.h :
+/gg/includestd/sys/fcntl.h :
+/gg/includestd/signal.h :
+/gg/includestd/sys/signal.h :
+ctaocrypt/test/test.h :
+cyassl/openssl/ssl.h :
+cyassl/ctaocrypt/sha256.h :
+examples/echoclient/echoclient.h :
+examples/echoserver/echoserver.h :
+examples/server/server.h :
+examples/client/client.h :

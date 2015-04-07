@@ -1,0 +1,124 @@
+ctaocrypt/test/testsuite_testsuite_test-test.o : \
+ ctaocrypt/test/test.c config.h cyassl/ctaocrypt/settings.h \
+ cyassl/ctaocrypt/visibility.h cyassl/ctaocrypt/asn_public.h \
+ cyassl/ctaocrypt/types.h cyassl/ctaocrypt/wc_port.h \
+ /gg/os-include/proto/exec.h /gg/os-include/clib/exec_protos.h \
+ /gg/os-include/exec/types.h /gg/os-include/exec/memory.h \
+ /gg/os-include/exec/nodes.h /gg/os-include/exec/tasks.h \
+ /gg/os-include/exec/lists.h /gg/os-include/exec/ports.h \
+ /gg/os-include/exec/semaphores.h /gg/os-include/exec/devices.h \
+ /gg/os-include/exec/libraries.h /gg/os-include/exec/machine.h \
+ /gg/os-include/utility/tagitem.h /gg/os-include/emul/emulinterface.h \
+ /gg/os-include/exec/io.h /gg/os-include/utility/hooks.h \
+ /gg/lib/gcc-lib/ppc-morphos/2.95.3/include/stdarg.h \
+ /gg/lib/gcc-lib/ppc-morphos/2.95.3/include/va-ppc.h \
+ /gg/os-include/ppcinline/exec.h /gg/os-include/ppcinline/macros.h \
+ /gg/os-include/emul/emulregs.h cyassl/ctaocrypt/memory.h \
+ /gg/includestd/stdlib.h /gg/includestd/machine/ansi.h \
+ /gg/includestd/sys/types.h /gg/includestd/machine/types.h \
+ /gg/includestd/sys/cdefs.h /gg/includestd/machine/cdefs.h \
+ /gg/includestd/machine/endian.h /gg/includestd/string.h \
+ /gg/includestd/ctype.h cyassl/ctaocrypt/ecc.h cyassl/ctaocrypt/md2.h \
+ cyassl/ctaocrypt/md5.h cyassl/ctaocrypt/md4.h cyassl/ctaocrypt/sha.h \
+ cyassl/ctaocrypt/sha256.h cyassl/ctaocrypt/sha512.h \
+ cyassl/ctaocrypt/arc4.h cyassl/ctaocrypt/random.h \
+ cyassl/ctaocrypt/coding.h cyassl/ctaocrypt/rsa.h \
+ cyassl/ctaocrypt/integer.h /gg/includestd/limits.h \
+ /gg/includestd/machine/limits.h /gg/includestd/sys/syslimits.h \
+ cyassl/ctaocrypt/mpi_class.h cyassl/ctaocrypt/mpi_superclass.h \
+ cyassl/ctaocrypt/des3.h cyassl/ctaocrypt/aes.h \
+ cyassl/ctaocrypt/poly1305.h cyassl/ctaocrypt/camellia.h \
+ cyassl/ctaocrypt/hmac.h cyassl/ctaocrypt/dh.h cyassl/ctaocrypt/dsa.h \
+ cyassl/ctaocrypt/hc128.h cyassl/ctaocrypt/rabbit.h \
+ cyassl/ctaocrypt/chacha.h cyassl/ctaocrypt/pwdbased.h \
+ cyassl/ctaocrypt/ripemd.h cyassl/ctaocrypt/error-crypt.h \
+ cyassl/openssl/evp.h cyassl/openssl/md5.h cyassl/openssl/sha.h \
+ cyassl/openssl/ripemd.h cyassl/openssl/rsa.h cyassl/openssl/ssl.h \
+ cyassl/ssl.h cyassl/version.h /gg/includestd/stdio.h \
+ /gg/includestd/sys/uio.h cyassl/openssl/bn.h cyassl/openssl/dsa.h \
+ cyassl/openssl/rand.h cyassl/openssl/hmac.h cyassl/openssl/des.h \
+ ctaocrypt/test/test.h
+ctaocrypt/test/test.c :
+config.h :
+cyassl/ctaocrypt/settings.h :
+cyassl/ctaocrypt/visibility.h :
+cyassl/ctaocrypt/asn_public.h :
+cyassl/ctaocrypt/types.h :
+cyassl/ctaocrypt/wc_port.h :
+/gg/os-include/proto/exec.h :
+/gg/os-include/clib/exec_protos.h :
+/gg/os-include/exec/types.h :
+/gg/os-include/exec/memory.h :
+/gg/os-include/exec/nodes.h :
+/gg/os-include/exec/tasks.h :
+/gg/os-include/exec/lists.h :
+/gg/os-include/exec/ports.h :
+/gg/os-include/exec/semaphores.h :
+/gg/os-include/exec/devices.h :
+/gg/os-include/exec/libraries.h :
+/gg/os-include/exec/machine.h :
+/gg/os-include/utility/tagitem.h :
+/gg/os-include/emul/emulinterface.h :
+/gg/os-include/exec/io.h :
+/gg/os-include/utility/hooks.h :
+/gg/lib/gcc-lib/ppc-morphos/2.95.3/include/stdarg.h :
+/gg/lib/gcc-lib/ppc-morphos/2.95.3/include/va-ppc.h :
+/gg/os-include/ppcinline/exec.h :
+/gg/os-include/ppcinline/macros.h :
+/gg/os-include/emul/emulregs.h :
+cyassl/ctaocrypt/memory.h :
+/gg/includestd/stdlib.h :
+/gg/includestd/machine/ansi.h :
+/gg/includestd/sys/types.h :
+/gg/includestd/machine/types.h :
+/gg/includestd/sys/cdefs.h :
+/gg/includestd/machine/cdefs.h :
+/gg/includestd/machine/endian.h :
+/gg/includestd/string.h :
+/gg/includestd/ctype.h :
+cyassl/ctaocrypt/ecc.h :
+cyassl/ctaocrypt/md2.h :
+cyassl/ctaocrypt/md5.h :
+cyassl/ctaocrypt/md4.h :
+cyassl/ctaocrypt/sha.h :
+cyassl/ctaocrypt/sha256.h :
+cyassl/ctaocrypt/sha512.h :
+cyassl/ctaocrypt/arc4.h :
+cyassl/ctaocrypt/random.h :
+cyassl/ctaocrypt/coding.h :
+cyassl/ctaocrypt/rsa.h :
+cyassl/ctaocrypt/integer.h :
+/gg/includestd/limits.h :
+/gg/includestd/machine/limits.h :
+/gg/includestd/sys/syslimits.h :
+cyassl/ctaocrypt/mpi_class.h :
+cyassl/ctaocrypt/mpi_superclass.h :
+cyassl/ctaocrypt/des3.h :
+cyassl/ctaocrypt/aes.h :
+cyassl/ctaocrypt/poly1305.h :
+cyassl/ctaocrypt/camellia.h :
+cyassl/ctaocrypt/hmac.h :
+cyassl/ctaocrypt/dh.h :
+cyassl/ctaocrypt/dsa.h :
+cyassl/ctaocrypt/hc128.h :
+cyassl/ctaocrypt/rabbit.h :
+cyassl/ctaocrypt/chacha.h :
+cyassl/ctaocrypt/pwdbased.h :
+cyassl/ctaocrypt/ripemd.h :
+cyassl/ctaocrypt/error-crypt.h :
+cyassl/openssl/evp.h :
+cyassl/openssl/md5.h :
+cyassl/openssl/sha.h :
+cyassl/openssl/ripemd.h :
+cyassl/openssl/rsa.h :
+cyassl/openssl/ssl.h :
+cyassl/ssl.h :
+cyassl/version.h :
+/gg/includestd/stdio.h :
+/gg/includestd/sys/uio.h :
+cyassl/openssl/bn.h :
+cyassl/openssl/dsa.h :
+cyassl/openssl/rand.h :
+cyassl/openssl/hmac.h :
+cyassl/openssl/des.h :
+ctaocrypt/test/test.h :

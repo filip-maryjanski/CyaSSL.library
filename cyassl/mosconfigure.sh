@@ -1,0 +1,1 @@
+sh configure --disable-singlethreaded --enable-jobserver=no --enable-opensslextra --enable-savesession --enable-savecert --enable-debug --pdfdir=/ram --prefix=/ram CFLAGS=-noixemul LDFLAGS=-noixemul LIBS=-ldebug CPPFLAGS=-noixemul CXXFLAGS=-noixemul

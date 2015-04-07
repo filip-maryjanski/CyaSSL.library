@@ -1,0 +1,27 @@
+Short:          CyaSSL - TLS/SSL implementation
+Author:         wolfSSL
+MorphOS port:   Filip "widelec" Maryjañski
+Type:           system/libraries
+Version:        0.1
+Architecture:   ppc-morphos
+
+
+CyaSSL is a small, fast, portable implementation of TLS/SSL.
+
+
+Note for developers:
+
+For full documentation please refer to original documentation 
+available at http://www.yassl.com/yaSSL/Docs.html. Not all
+functions are available in MorphOS version yet.
+Imporant difference between MorphOS version and others CyaSSL
+ports is new function:
+CyaSSL_set_socketbase(SSL *ssl, struct Library *socketbase);
+You *must* call it on every new created SSL object to setup
+internal reference to SocketBase.
+
+
+Version 0.1 (07.04.2015):
+-------------------------
+
+ - first public release.
